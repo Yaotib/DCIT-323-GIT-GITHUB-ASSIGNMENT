@@ -16,5 +16,23 @@
 
    ```bash
    git clone https://github.com/Yaotib/DCIT-323-GIT-GITHUB-ASSIGNMENT.git
-   
+
 3. I opened the cloned folder in Visual Studio Code and added a README file.
+
+## C. Pushing to GitHub
+
+1. I used the `git init` command to initialize Git.
+
+2. Then I used `git add .` to track all the new folders and files I created.
+
+3. Then I used `git status` to check the tracked folders and files.
+
+4. Then I used the following command to create a snapshot of my first change:
+
+   ```bash
+   git commit -m "First commit_dcit 323 assignment"
+
+5. Finally, I used the following command to push my changes to GitHub:
+
+    ```bash
+    git push origin main
